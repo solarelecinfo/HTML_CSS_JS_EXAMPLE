@@ -1,0 +1,85 @@
+h1{
+    text-align: center;
+    color: blue;
+    font-size: 2.5rem;
+}
+
+h2{
+    text-align: center;
+    color: rgb(64, 1, 70);
+    font-size: 2rem;
+    font-style: italic;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+header{
+    background-color: #0073e6;
+}
+
+#div_1{
+    display:flex;
+    justify-content: center;
+    gap: 5px; /* Espacement entre les sections */
+}
+
+ /* section structure  balise,id*/
+#aside_1{
+    background-color: #a1e600;
+}
+
+ /* section structure  balise, id*/
+#section_0{
+    background-color: #1fb695;
+}
+
+
+#section_1{
+    background-color: #e60032;
+}
+#section_2{
+    background-color: #5100e6;
+}
+
+
+ /* customisation de table */
+ #table_1{
+    width: 100vw;
+    justify-content: center;
+    background-image:url("./../images/table_1_img.jpg") ;
+
+ }
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    color: #e60032;
+    font-size: 3rem;
+  
+
+}
+
+/* custom class*/
+.line_1{
+    width: 40%;
+    height: 30vh;
+    text-align: center;
+}
+
+.line_3{
+    color: #010f08;
+    font-size: 3rem;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+ul{
+    list-style: disc;
+}
+
+
