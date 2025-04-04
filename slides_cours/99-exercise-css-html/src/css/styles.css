@@ -1,7 +1,8 @@
 h1{
     text-align: center;
-    color: blue;
+    color: rgb(5, 5, 37);
     font-size: 2.5rem;
+    font-weight: bold;
 }
 
 h2{
@@ -37,6 +38,8 @@ header{
  /* section structure  balise, id*/
 #section_0{
     background-color: #1fb695;
+    font-size: 2em;
+    text-align: center;
 }
 
 
@@ -55,6 +58,7 @@ header{
     background-image:url("./../images/table_1_img.jpg") ;
 
  }
+
 th, td {
     border: 1px solid black;
     padding: 8px;
@@ -63,6 +67,12 @@ th, td {
   
 
 }
+
+ /* customisation list */
+ .contact_1{
+    color: #44064d;
+    font-size: 4em;
+ }
 
 /* custom class*/
 .line_1{
@@ -83,3 +93,10 @@ ul{
 }
 
 
+/* customisation class de p*/
+.download_1{
+    font-size: 3em;
+    justify-content: center;
+
+
+ }
