@@ -26,6 +26,7 @@ header{
 
 #div_1{
     display:flex;
+    overflow: hidden;
     justify-content: center;
     gap: 5px; /* Espacement entre les sections */
 }
@@ -79,6 +80,7 @@ th, td {
     width: 40%;
     height: 30vh;
     text-align: center;
+    
 }
 
 .line_3{
