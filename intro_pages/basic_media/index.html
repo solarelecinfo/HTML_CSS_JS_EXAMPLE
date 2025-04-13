@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulaire de la page</title>
+</head>
+
+<body >
+    <header>  
+        <h1>MEDIA TYPES</h1>
+    </header>
+    <div class="div_container1">
+        <nav  class="nav_left_parent1">
+            <form  action="./src/html/destination.html" method="GET">
+                <label for="select_1">colors:</label>
+                <select id="select_1" name="select_1">
+                    <option value="red">Red</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="green" selected>Green</option>
+                    <option value="white">White</option>
+                 </select>
+                 <br>
+             
+                <input list="legumes" name="legumes">
+                <datalist id="legumes">
+                    <option value="chou">CHOU</option>
+                    <option value="carrotte">CARROTTE</option>
+                    <option value="radis">RADIS</option>
+                    <option value="brocoli">BROCO</option>
+                </datalist>
+                <br>
+
+                <button type="submit" >SUBMIT</button>
+            </form>
+
+        </nav>
+        <section class="section_right_parent1">
+            <article id="article_right_top" >
+                <img src="./src/images/image.png" >
+            </article>
+
+            <article id="article_center" >
+                <audio src="./src/audio/jingle-bells-harmonica-270962.mp3" controls></audio>
+            </article>
+            
+            <article id="article_right_bottom">
+                <video src="./src/video/13425100_1920_1080_30fps.mp4" controls></video> <br>
+                <iframe width="400" height="225" src="https://www.youtube.com/embed/UfKzedTWH_c" title="30 belles œuvres classiques pour toucher l&#39;âme. Mozart, Beethoven, Chopin, Debussy, Rachmaninov" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+
+        </section>
+    </div>
+    <div class="clear"></div>
+<footer>  
+</footer>
+</body>
+</html>
