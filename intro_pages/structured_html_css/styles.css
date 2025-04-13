@@ -1,0 +1,66 @@
+/* Style de base pour la page */
+/* Style de base pour la page */
+html, body {
+    height: 100vh; /* Donne une hauteur de 100% à la page visible */
+    width: 100vw;  /* Donne une hauteur de 100% à la page visible */
+}  
+header{
+    text-align: center;
+    background-color:  #e14f0c;
+
+}
+
+  .div_container1 {
+    width: 100%;   /* 100% de l'épaisseur total du parent */
+    height: 100%;  /* 100% de l'hauteur total du parent */
+    overflow: hidden; /* Empêche le dépassement des éléments flottants */
+  }
+  
+  /* Section gauche */
+  .nav_left_parent1 {
+    width: 30%;  /* 30% de la largeur pour la section à gauche */
+    height: 100%; /* 100% de l'hauteur total du parent */
+    float: left;  /* Fait flotter la section à gauche */
+    background-color:  #775533;
+
+  }
+  
+  /* Section droite */
+ .section_right_parent1 {
+    width: 70%;  /* 70% de la largeur pour les deux sections de droite */
+    height: 100%; /* 100% de l'hauteur total du parent */
+    float: right;  /* Fait flotter la section droite */
+    background-color: #005533;
+
+  }
+
+
+ #article_right_top {
+    height: 20%; 
+    background-color: #550006;
+
+  }
+
+
+ #article_right_center {
+    height: 30%; 
+    background-color: #beea47;
+ 
+  }
+
+ #article_right_botton {
+    height: 50%;  
+    background-color: #003655;
+ 
+  }
+  /* Clear les éléments flottants pour eviter d'interferir avec d'autres elements*/
+.clear {
+    clear: both;
+  }
+
+footer {
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+  }
