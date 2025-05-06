@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./src/">
+ 
+</head>
+
+<body>
+    <h1 id="titre1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sapiente ducimus fugit? Architecto odit accusamus facilis libero aspernatur consectetur delectus eius magni veritatis dolores. Minus molestias ullam rerum ipsa optio!</h1>
+    <button id="btn1" onclick="getRequestCustomById(1)">test</button>
+    
+    <h2 id="resultat"></h2>
+    <br>
+
+    <script src="app.js"></script>
+
+
+    <script>
+        // Paramètres à envoyer
+  
+    
+        function getRequestCustom(){
+        // URL de l'API + paramètres
+        const url = 'https://api.restful-api.dev/objects' 
+    
+        // Requête GET
+        fetch(url)
+          .then(response => response.json())
+          .then(data => {
+            document.getElementById('resultat').textContent = JSON.stringify(data, null, 2);
+          })
+          .catch(error => {
+            console.error('Erreur:', error);
+          });
+        }
+
+
+        function getRequestCustomById(id){
+        // URL de l'API + paramètres
+        const url = 'https://api.restful-api.dev/objects?id=' +id
+    
+        // Requête GET
+        fetch(url)
+          .then(response => response.json())
+          .then(data => {
+            document.getElementById('resultat').textContent = JSON.stringify(data, null, 2);
+          })
+          .catch(error => {
+            console.error('Erreur:', error);
+          });
+        }
+      </script>
+
+</body>
+</html>
