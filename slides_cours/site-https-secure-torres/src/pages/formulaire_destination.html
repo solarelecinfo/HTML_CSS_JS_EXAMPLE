@@ -1,0 +1,23 @@
+<!-- destination.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Destination Page</title>
+</head>
+<body>
+    <h1>Données soumises :</h1>
+    <p>Nom : <span id="nom"></span></p>
+    <p>Prénom : <span id="prenom"></span></p>
+    <p>Titulaire compte : <span id="titulaire"></span></p>
+
+    <script>
+        // Récupérer les paramètres de l'URL
+        const params = new URLSearchParams(window.location.search);
+        document.getElementById("nom").textContent = params.get("nom");
+        document.getElementById("prenom").textContent = params.get("prenom");
+        // Gérer le champ "Titulaire"
+        document.getElementById("titulaire").textContent= params.get("titulaire");
+    </script>
+</body>
+</html>
