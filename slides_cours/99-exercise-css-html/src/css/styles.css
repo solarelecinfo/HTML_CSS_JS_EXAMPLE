@@ -1,14 +1,14 @@
-h1{
+h1,h2{
     text-align: center;
-    color: rgb(5, 5, 37);
-    font-size: 2.5rem;
+    color: rgb(18, 3, 231);
+    font-size: 3rem;
     font-weight: bold;
 }
 
-h2{
+h3{
     text-align: center;
-    color: rgb(64, 1, 70);
-    font-size: 2rem;
+    color: rgb(238, 21, 21);
+    font-size: 2.5rem;
     font-style: italic;
 }
 
@@ -21,14 +21,13 @@ img{
 
 
 header{
-    background-color: #0073e6;
+    background-color: #4196eb;
 }
 
-#div_1{
-    display:flex;
-    overflow: hidden;
-    justify-content: center;
-    gap: 5px; /* Espacement entre les sections */
+/*section de 3 sous sections */
+#div_1{ 
+    display:table;
+    width: 100%;
 }
 
  /* section structure  balise,id*/
@@ -38,18 +37,28 @@ header{
 
  /* section structure  balise, id*/
 #section_0{
-    background-color: #1fb695;
-    font-size: 2em;
     text-align: center;
+    font-size: 2.5rem;
+    background-color: #0c5848;
 }
 
 
 #section_1{
-    background-color: #e60032;
+    background-color: #630a1d;
 }
 #section_2{
     background-color: #5100e6;
 }
+#section_3{
+    background-color: #63aa11;
+}
+#section_4{
+    background-color: #5f044b;
+}
+#section_5{
+    background-color: #06443f;
+}
+
 
 
  /* customisation de table */
@@ -69,25 +78,27 @@ th, td {
 
 }
 
- /* customisation list */
- .contact_1{
-    color: #44064d;
-    font-size: 4em;
+ /* **************** STYLE DE CLASSES **************** */
+ /* customisation list class*/
+ .list_item_format_1{
+    color: #022b0b;
+    font-size: 3em;
+    padding-left: 70px;
+ }
+  .list_item_format_2{
+    color: #82af05;
+    font-size: 1.8em;
+    text-align: center;
+   
  }
 
 /* custom class*/
-.line_1{
-    width: 40%;
-    height: 30vh;
+.line_format_1{
+    display: table-cell;
+    vertical-align: top;    /* aligne le contenu en haut */
+    width: 33%;         /* trois colonnes égales */
     text-align: center;
     
-}
-
-.line_3{
-    color: #010f08;
-    font-size: 3rem;
-    text-align: center;
-    background-color: greenyellow;
 }
 
 ul{
