@@ -9,30 +9,42 @@ header{
     background-color:  #e14f0c;
 
 }
+p{
+    text-align: center;
+    background-color:  #4338df;
+    font-size: 2rem;
+}
+table{ 
+  text-align: center;
+    font-size: 1.5rem;
+    width: 100%;;
+   
+}
+footer{ 
+    background-color:  #1ca2a7;
+    width: 100%;;
+   
+}
 
-  .div_container1 {
-    width: 100%;   /* 100% de l'épaisseur total du parent */
-    height: 100%;  /* 100% de l'hauteur total du parent */
-    overflow: hidden; /* Empêche le dépassement des éléments flottants */
-  }
+.div_container1 {
+  display: table;           /* se comporte comme un tableau */
+  width: 100%;
+  table-layout: fixed;      /* fixe la largeur des cellules */
+}
   
-  /* Section gauche */
-  .nav_left_parent1 {
-    width: 30%;  /* 30% de la largeur pour la section à gauche */
-    height: 100%; /* 100% de l'hauteur total du parent */
-    float: left;  /* Fait flotter la section à gauche */
-    background-color:  #775533;
+.nav_left_parent1 {
+  width: 30%;
+  background-color: #775533;
+  display: table-cell;      /* les 2 colonnes s'ajustent automatiquement */
+  vertical-align: top;      /* contenu aligné en haut */
+}
 
-  }
-  
-  /* Section droite */
- .section_right_parent1 {
-    width: 70%;  /* 70% de la largeur pour les deux sections de droite */
-    height: 100%; /* 100% de l'hauteur total du parent */
-    float: right;  /* Fait flotter la section droite */
-    background-color: #005533;
-
-  }
+.section_right_parent1 {
+  width: 70%;
+  background-color: #005533;
+  display: table-cell;      /* les 2 colonnes s'ajustent automatiquement */
+  vertical-align: top;      /* contenu aligné en haut */
+}
 
 
  #article_right_top {
